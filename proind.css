@@ -1,0 +1,78 @@
+ .head{
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+ }
+ .head video{
+    position: absolute;
+    width: 2000px;
+    top: 0;
+    object-fit:cover ;
+    pointer-events: none;
+ }
+.head  .heada{
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: center;
+}
+ .main{
+   background-size: cover;
+   background-position: relative;
+   text-align: center;
+ }
+.heada h1{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color:white;
+   
+}
+.header p {
+    margin-top: 1rem;
+    font-weight: 600;
+    font-size: 1.5 rem;
+    color:white;
+}
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+    color: white;
+}
+.inputs{
+    margin-top: 6rem;
+    padding: 6rem 0 2rem 0;
+    text-align:center;
+    justify-content: center;
+}
+.inputs input[type="text"] {
+    height: 5 rem;
+    width: 50rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: solid 2px white;
+    color: white;
+    border-radius: 2px;
+    margin-right:4px ;
+}
+.inputs button {
+    height: 3.5rem;
+    width: 6.5rem;
+    background: white;
+    font-weight: bold;
+    color:black;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 2px;
+    margin-top: 3rem;
+}
+.display {
+    text-align: center;
+    color:white;
+    font-size: 28px;
+}
